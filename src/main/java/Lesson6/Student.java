@@ -32,6 +32,6 @@ class StudentTest{
         System.out.println(s1.id + " " + s1.name + " " + s1.lastName + " " + s1.course);
 
         Student s2 = new Student();
-        
+
     }
 }
