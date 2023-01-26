@@ -40,7 +40,7 @@ public class HomeWork15 {
 
             }
 
-            while (minute < 60);
+            while (minute < 59);
             hour++;
 
 
