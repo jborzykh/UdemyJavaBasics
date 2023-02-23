@@ -1,0 +1,27 @@
+package Lesson18;
+
+import java.util.Arrays;
+
+public class Sorting2 {
+
+        public static void main(String[] args) {
+            int [] mas = {1, 9, 3, -8, 0, 5, 4, 1};
+
+            boolean isSorted = false;
+            int buf;
+            while(!isSorted) {
+                isSorted = true;
+                for (int i = 0; i < mas.length-1; i++) {
+                    if(mas[i] > mas[i+1]){
+                        isSorted = false;
+
+                        buf = mas[i];
+                        mas[i] = mas[i+1];
+                        mas[i+1] = buf;
+                    }
+                }
+            }
+            System.out.println(Arrays.toString(mas));
+        }
+    }
+
